@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- On holatida rang -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#087CD8" /> <!-- Yashil iz -->
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <!-- Off holatida rang -->
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3" /> <!-- Qizil iz -->
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004D57"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/svitch"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Switch"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sekbar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="SeekBar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/radiogroup"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Radio Group"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chekboks"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="CheckBox"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/slider"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Slider"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/superedt"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Text Input"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chip"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Chip"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rating"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Rating Bar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <!--    <com.google.android.material.slider.Slider-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:valueFrom="0"-->
+    <!--        android:valueTo="100"-->
+    <!--        android:value="50"/>-->
+
+    <!--    <Switch-->
+    <!--        android:id="@+id/customSwitch"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:switchPadding="5dp"-->
+    <!--        android:thumb="@drawable/custom_switch_thumb"-->
+    <!--        android:track="@drawable/custom_switch_track"-->
+    <!--        tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+
+
+    <!--    <ToggleButton-->
+    <!--        android:id="@+id/togglebutton"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textOn="ON"-->
+    <!--        android:textOff="OFF" />-->
+
+</LinearLayout>

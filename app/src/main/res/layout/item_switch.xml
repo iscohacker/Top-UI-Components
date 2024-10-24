@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008CCC"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/customSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchPadding="5dp"
+        android:thumb="@drawable/custom_switch_thumb"
+        android:track="@drawable/custom_switch_track"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+</LinearLayout>
